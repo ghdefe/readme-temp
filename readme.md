@@ -1,13 +1,13 @@
-- [表关联查询差异](#-------)
-  * [外键约束的优势与劣势](#----------)
-    + [优点：](#---)
-    + [缺点：](#---)
-    + [比较：](#---)
-  * [Jhipster & JPA](#jhipster---jpa)
-  * [Jeecg-Boot & mybatis-plus](#jeecg-boot---mybatis-plus)
-  * [总结](#--)
-  * [Jhipster + JPA建立关联表实例](#jhipster---jpa-------)
-  * [Jeecg-Boot + MyBatis-Plus建立关联表实例](#jeecg-boot---mybatis-plus-------)
+- [表关联查询差异](#表关联查询差异)
+  * [外键约束的优势与劣势](#外键约束的优势与劣势)
+    + [优点：](#优点：)
+    + [缺点：](#缺点：)
+    + [比较：](#比较：)
+  * [Jhipster & JPA](#Jhipster & JPA)
+  * [Jeecg-Boot & mybatis-plus](#Jeecg-Boot & mybatis-plus)
+  * [总结](#总结)
+  * [Jhipster + JPA建立关联表实例](#Jhipster + JPA建立关联表实例)
+  * [Jeecg-Boot + MyBatis-Plus建立关联表实例](#Jeecg-Boot + MyBatis-Plus建立关联表实例)
 
 
 
