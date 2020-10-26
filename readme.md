@@ -12,7 +12,6 @@
 
 
 # 表关联查询差异
-[toc]
 表关联查询主要有两种方式：  
 （1）使用外键约束；  
 （2）应用层实现关联查询逻辑；
@@ -139,21 +138,21 @@ relationship ManyToMany {
     UserBase to RoleName
 }
 ```
-**user_base **该表是用户基本信息表，主表
-![img](https://raw.githubusercontent.com/ghdefe/readme-temp/master/media/Snipaste_2020-10-23_17-16-44.png)
-**user_info **该表外键为user_base_id
-![img](https://raw.githubusercontent.com/ghdefe/readme-temp/master/media/Snipaste_2020-10-23_17-15-24.png)
+**user_base**该表是用户基本信息表，主表
+![img](https://raw.githubusercontent.com/ghdefe/readme-temp/master/media/Snipaste_2020-10-23_17-16-44.png)  
+**user_info**该表外键为user_base_id
+![img](https://raw.githubusercontent.com/ghdefe/readme-temp/master/media/Snipaste_2020-10-23_17-15-24.png)  
 **role_name**
-![img](https://raw.githubusercontent.com/ghdefe/readme-temp/master/media/Snipaste_2020-10-23_17-17-47.png)
+![img](https://raw.githubusercontent.com/ghdefe/readme-temp/master/media/Snipaste_2020-10-23_17-17-47.png)  
 **user_base_role_name** 该表是user_base和role_name多对多关系的中间表
-![img](https://raw.githubusercontent.com/ghdefe/readme-temp/master/media/Snipaste_2020-10-23_17-20-29.png)  
+![img](https://raw.githubusercontent.com/ghdefe/readme-temp/master/media/Snipaste_2020-10-23_17-20-29.png)   
 外键约束
-![img](https://raw.githubusercontent.com/ghdefe/readme-temp/master/media/Snipaste_2020-10-23_17-21-34.png)
+![img](https://raw.githubusercontent.com/ghdefe/readme-temp/master/media/Snipaste_2020-10-23_17-21-34.png)  
 
 ## Jeecg-Boot + MyBatis-Plus建立关联表实例
 如下面例子，订单是主表，商品和顾客是附表  
 **生成订单实体类页面**
-![img](https://raw.githubusercontent.com/ghdefe/readme-temp/master/media/Snipaste_2020-10-23_16-54-33.png)  
+![img](https://raw.githubusercontent.com/ghdefe/readme-temp/master/media/Snipaste_2020-10-23_16-54-33.png)   
 **生成商品实体类页面**
 ![img](https://raw.githubusercontent.com/ghdefe/readme-temp/master/media/Snipaste_2020-10-23_16-57-37.png)  
 **order表**
