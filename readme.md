@@ -1,6 +1,18 @@
-[toc]
+- [表关联查询差异](#-------)
+  * [外键约束的优势与劣势](#----------)
+    + [优点：](#---)
+    + [缺点：](#---)
+    + [比较：](#---)
+  * [Jhipster & JPA](#jhipster---jpa)
+  * [Jeecg-Boot & mybatis-plus](#jeecg-boot---mybatis-plus)
+  * [总结](#--)
+  * [Jhipster + JPA建立关联表实例](#jhipster---jpa-------)
+  * [Jeecg-Boot + MyBatis-Plus建立关联表实例](#jeecg-boot---mybatis-plus-------)
+
+
 
 # 表关联查询差异
+[toc]
 表关联查询主要有两种方式：  
 （1）使用外键约束；  
 （2）应用层实现关联查询逻辑；
